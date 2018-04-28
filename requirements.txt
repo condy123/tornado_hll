@@ -1,0 +1,12 @@
+crc16==0.1.1
+DBUtils==1.2
+motor==1.2.1
+pymongo==3.6.1
+PyMySQL==0.8.0
+python-redis==0.1.7
+raven==6.7.0
+redis==2.10.6
+tornado==5.0.2
+Tornado-MySQL==0.5.1
+tornado-redis==2.4.18
+virtualenv==15.2.0
