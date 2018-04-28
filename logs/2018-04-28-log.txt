@@ -1,0 +1,746 @@
+[I 180428 07:29:00 web:2106] 304 GET / (127.0.0.1) 2.10ms
+[I 180428 07:29:03 web:2106] 304 GET / (127.0.0.1) 0.35ms
+[I 180428 07:29:06 web:2106] 304 GET / (127.0.0.1) 0.33ms
+[I 180428 07:30:40 autoreload:196] /Users/tang/python/python_obj/test_py/handlers/MainHandler.py modified; restarting server
+[I 180428 07:30:41 web:2106] 304 GET / (127.0.0.1) 0.85ms
+[I 180428 07:30:41 web:2106] 304 GET / (127.0.0.1) 0.45ms
+[I 180428 07:30:42 web:2106] 304 GET / (127.0.0.1) 0.57ms
+[I 180428 07:30:42 web:2106] 304 GET / (127.0.0.1) 0.50ms
+[I 180428 07:30:42 web:2106] 304 GET / (127.0.0.1) 0.63ms
+[I 180428 07:30:42 web:2106] 304 GET / (127.0.0.1) 0.53ms
+[I 180428 07:30:50 autoreload:196] /Users/tang/python/python_obj/test_py/handlers/MainHandler.py modified; restarting server
+[I 180428 07:30:51 web:2106] 304 GET / (127.0.0.1) 0.77ms
+[I 180428 07:30:54 web:2106] 304 GET / (127.0.0.1) 0.49ms
+[I 180428 07:31:37 autoreload:196] /Users/tang/python/python_obj/test_py/handlers/MainHandler.py modified; restarting server
+[E 180428 07:31:37 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/tang/python/python_obj/test_py/handlers/MainHandler.py", line 8, in get
+        print(self.db)
+      File "/Users/tang/python/python_obj/test_py/handlers/BaseHandler.py", line 12, in db
+        return self.application.db
+    AttributeError: 'Application' object has no attribute 'db'
+[E 180428 07:31:37 web:2106] 500 GET / (127.0.0.1) 5.21ms
+[E 180428 07:31:38 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/tang/python/python_obj/test_py/handlers/MainHandler.py", line 8, in get
+        print(self.db)
+      File "/Users/tang/python/python_obj/test_py/handlers/BaseHandler.py", line 12, in db
+        return self.application.db
+    AttributeError: 'Application' object has no attribute 'db'
+[E 180428 07:31:38 web:2106] 500 GET / (127.0.0.1) 0.85ms
+[E 180428 07:31:41 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/tang/python/python_obj/test_py/handlers/MainHandler.py", line 8, in get
+        print(self.db)
+      File "/Users/tang/python/python_obj/test_py/handlers/BaseHandler.py", line 12, in db
+        return self.application.db
+    AttributeError: 'Application' object has no attribute 'db'
+[E 180428 07:31:41 web:2106] 500 GET / (127.0.0.1) 1.01ms
+[I 180428 07:34:19 autoreload:196] /Users/tang/python/python_obj/test_py/handlers/MainHandler.py modified; restarting server
+[E 180428 07:50:07 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/tang/python/python_obj/test_py/handlers/MainHandler.py", line 8, in get
+        db = self.db()
+      File "/Users/tang/python/python_obj/test_py/handlers/BaseHandler.py", line 12, in db
+        return self.application.db
+    AttributeError: 'Application' object has no attribute 'db'
+[E 180428 07:50:07 web:2106] 500 GET / (127.0.0.1) 2.86ms
+[I 180428 07:51:26 autoreload:196] /Users/tang/python/python_obj/test_py/handlers/BaseHandler.py modified; restarting server
+[E 180428 07:51:26 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/tang/python/python_obj/test_py/handlers/MainHandler.py", line 8, in get
+        db = self.db()
+      File "/Users/tang/python/python_obj/test_py/handlers/BaseHandler.py", line 12, in db
+        return self.application.mysql
+    AttributeError: 'Application' object has no attribute 'mysql'
+[E 180428 07:51:26 web:2106] 500 GET / (127.0.0.1) 2.62ms
+[E 180428 07:51:27 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/tang/python/python_obj/test_py/handlers/MainHandler.py", line 8, in get
+        db = self.db()
+      File "/Users/tang/python/python_obj/test_py/handlers/BaseHandler.py", line 12, in db
+        return self.application.mysql
+    AttributeError: 'Application' object has no attribute 'mysql'
+[E 180428 07:51:27 web:2106] 500 GET / (127.0.0.1) 1.01ms
+[E 180428 07:51:27 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/tang/python/python_obj/test_py/handlers/MainHandler.py", line 8, in get
+        db = self.db()
+      File "/Users/tang/python/python_obj/test_py/handlers/BaseHandler.py", line 12, in db
+        return self.application.mysql
+    AttributeError: 'Application' object has no attribute 'mysql'
+[E 180428 07:51:27 web:2106] 500 GET / (127.0.0.1) 1.26ms
+[E 180428 07:51:28 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/tang/python/python_obj/test_py/handlers/MainHandler.py", line 8, in get
+        db = self.db()
+      File "/Users/tang/python/python_obj/test_py/handlers/BaseHandler.py", line 12, in db
+        return self.application.mysql
+    AttributeError: 'Application' object has no attribute 'mysql'
+[E 180428 07:51:28 web:2106] 500 GET / (127.0.0.1) 0.97ms
+[E 180428 07:51:28 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/tang/python/python_obj/test_py/handlers/MainHandler.py", line 8, in get
+        db = self.db()
+      File "/Users/tang/python/python_obj/test_py/handlers/BaseHandler.py", line 12, in db
+        return self.application.mysql
+    AttributeError: 'Application' object has no attribute 'mysql'
+[E 180428 07:51:28 web:2106] 500 GET / (127.0.0.1) 0.98ms
+[E 180428 07:51:29 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/tang/python/python_obj/test_py/handlers/MainHandler.py", line 8, in get
+        db = self.db()
+      File "/Users/tang/python/python_obj/test_py/handlers/BaseHandler.py", line 12, in db
+        return self.application.mysql
+    AttributeError: 'Application' object has no attribute 'mysql'
+[E 180428 07:51:29 web:2106] 500 GET / (127.0.0.1) 2.14ms
+[E 180428 07:51:29 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/tang/python/python_obj/test_py/handlers/MainHandler.py", line 8, in get
+        db = self.db()
+      File "/Users/tang/python/python_obj/test_py/handlers/BaseHandler.py", line 12, in db
+        return self.application.mysql
+    AttributeError: 'Application' object has no attribute 'mysql'
+[E 180428 07:51:29 web:2106] 500 GET / (127.0.0.1) 0.98ms
+[E 180428 07:51:29 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/tang/python/python_obj/test_py/handlers/MainHandler.py", line 8, in get
+        db = self.db()
+      File "/Users/tang/python/python_obj/test_py/handlers/BaseHandler.py", line 12, in db
+        return self.application.mysql
+    AttributeError: 'Application' object has no attribute 'mysql'
+[E 180428 07:51:29 web:2106] 500 GET / (127.0.0.1) 1.00ms
+[E 180428 07:51:29 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/tang/python/python_obj/test_py/handlers/MainHandler.py", line 8, in get
+        db = self.db()
+      File "/Users/tang/python/python_obj/test_py/handlers/BaseHandler.py", line 12, in db
+        return self.application.mysql
+    AttributeError: 'Application' object has no attribute 'mysql'
+[E 180428 07:51:29 web:2106] 500 GET / (127.0.0.1) 1.99ms
+[E 180428 07:51:29 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/tang/python/python_obj/test_py/handlers/MainHandler.py", line 8, in get
+        db = self.db()
+      File "/Users/tang/python/python_obj/test_py/handlers/BaseHandler.py", line 12, in db
+        return self.application.mysql
+    AttributeError: 'Application' object has no attribute 'mysql'
+[E 180428 07:51:29 web:2106] 500 GET / (127.0.0.1) 0.93ms
+[E 180428 07:51:30 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/tang/python/python_obj/test_py/handlers/MainHandler.py", line 8, in get
+        db = self.db()
+      File "/Users/tang/python/python_obj/test_py/handlers/BaseHandler.py", line 12, in db
+        return self.application.mysql
+    AttributeError: 'Application' object has no attribute 'mysql'
+[E 180428 07:51:30 web:2106] 500 GET / (127.0.0.1) 1.17ms
+[E 180428 07:51:30 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/tang/python/python_obj/test_py/handlers/MainHandler.py", line 8, in get
+        db = self.db()
+      File "/Users/tang/python/python_obj/test_py/handlers/BaseHandler.py", line 12, in db
+        return self.application.mysql
+    AttributeError: 'Application' object has no attribute 'mysql'
+[E 180428 07:51:30 web:2106] 500 GET / (127.0.0.1) 1.05ms
+[E 180428 07:51:30 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/tang/python/python_obj/test_py/handlers/MainHandler.py", line 8, in get
+        db = self.db()
+      File "/Users/tang/python/python_obj/test_py/handlers/BaseHandler.py", line 12, in db
+        return self.application.mysql
+    AttributeError: 'Application' object has no attribute 'mysql'
+[E 180428 07:51:30 web:2106] 500 GET / (127.0.0.1) 0.95ms
+[E 180428 07:51:30 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/tang/python/python_obj/test_py/handlers/MainHandler.py", line 8, in get
+        db = self.db()
+      File "/Users/tang/python/python_obj/test_py/handlers/BaseHandler.py", line 12, in db
+        return self.application.mysql
+    AttributeError: 'Application' object has no attribute 'mysql'
+[E 180428 07:51:30 web:2106] 500 GET / (127.0.0.1) 1.04ms
+[I 180428 07:51:52 autoreload:196] /Users/tang/python/python_obj/test_py/handlers/MainHandler.py modified; restarting server
+[E 180428 07:51:53 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/tang/python/python_obj/test_py/handlers/MainHandler.py", line 8, in get
+        db = self.db
+      File "/Users/tang/python/python_obj/test_py/handlers/BaseHandler.py", line 12, in db
+        return self.application.mysql
+    AttributeError: 'Application' object has no attribute 'mysql'
+[E 180428 07:51:53 web:2106] 500 GET / (127.0.0.1) 2.31ms
+[E 180428 07:51:55 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/tang/python/python_obj/test_py/handlers/MainHandler.py", line 8, in get
+        db = self.db
+      File "/Users/tang/python/python_obj/test_py/handlers/BaseHandler.py", line 12, in db
+        return self.application.mysql
+    AttributeError: 'Application' object has no attribute 'mysql'
+[E 180428 07:51:55 web:2106] 500 GET / (127.0.0.1) 0.95ms
+[E 180428 07:51:55 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/tang/python/python_obj/test_py/handlers/MainHandler.py", line 8, in get
+        db = self.db
+      File "/Users/tang/python/python_obj/test_py/handlers/BaseHandler.py", line 12, in db
+        return self.application.mysql
+    AttributeError: 'Application' object has no attribute 'mysql'
+[E 180428 07:51:55 web:2106] 500 GET / (127.0.0.1) 0.94ms
+[E 180428 07:51:55 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/tang/python/python_obj/test_py/handlers/MainHandler.py", line 8, in get
+        db = self.db
+      File "/Users/tang/python/python_obj/test_py/handlers/BaseHandler.py", line 12, in db
+        return self.application.mysql
+    AttributeError: 'Application' object has no attribute 'mysql'
+[E 180428 07:51:55 web:2106] 500 GET / (127.0.0.1) 0.85ms
+[E 180428 07:51:56 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/tang/python/python_obj/test_py/handlers/MainHandler.py", line 8, in get
+        db = self.db
+      File "/Users/tang/python/python_obj/test_py/handlers/BaseHandler.py", line 12, in db
+        return self.application.mysql
+    AttributeError: 'Application' object has no attribute 'mysql'
+[E 180428 07:51:56 web:2106] 500 GET / (127.0.0.1) 1.24ms
+[E 180428 07:51:56 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/tang/python/python_obj/test_py/handlers/MainHandler.py", line 8, in get
+        db = self.db
+      File "/Users/tang/python/python_obj/test_py/handlers/BaseHandler.py", line 12, in db
+        return self.application.mysql
+    AttributeError: 'Application' object has no attribute 'mysql'
+[E 180428 07:51:56 web:2106] 500 GET / (127.0.0.1) 0.96ms
+[E 180428 07:51:56 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/tang/python/python_obj/test_py/handlers/MainHandler.py", line 8, in get
+        db = self.db
+      File "/Users/tang/python/python_obj/test_py/handlers/BaseHandler.py", line 12, in db
+        return self.application.mysql
+    AttributeError: 'Application' object has no attribute 'mysql'
+[E 180428 07:51:56 web:2106] 500 GET / (127.0.0.1) 0.94ms
+[E 180428 07:51:56 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/tang/python/python_obj/test_py/handlers/MainHandler.py", line 8, in get
+        db = self.db
+      File "/Users/tang/python/python_obj/test_py/handlers/BaseHandler.py", line 12, in db
+        return self.application.mysql
+    AttributeError: 'Application' object has no attribute 'mysql'
+[E 180428 07:51:56 web:2106] 500 GET / (127.0.0.1) 0.91ms
+[E 180428 07:51:56 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/tang/python/python_obj/test_py/handlers/MainHandler.py", line 8, in get
+        db = self.db
+      File "/Users/tang/python/python_obj/test_py/handlers/BaseHandler.py", line 12, in db
+        return self.application.mysql
+    AttributeError: 'Application' object has no attribute 'mysql'
+[E 180428 07:51:56 web:2106] 500 GET / (127.0.0.1) 0.97ms
+[E 180428 07:51:57 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/tang/python/python_obj/test_py/handlers/MainHandler.py", line 8, in get
+        db = self.db
+      File "/Users/tang/python/python_obj/test_py/handlers/BaseHandler.py", line 12, in db
+        return self.application.mysql
+    AttributeError: 'Application' object has no attribute 'mysql'
+[E 180428 07:51:57 web:2106] 500 GET / (127.0.0.1) 1.02ms
+[E 180428 07:51:57 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/tang/python/python_obj/test_py/handlers/MainHandler.py", line 8, in get
+        db = self.db
+      File "/Users/tang/python/python_obj/test_py/handlers/BaseHandler.py", line 12, in db
+        return self.application.mysql
+    AttributeError: 'Application' object has no attribute 'mysql'
+[E 180428 07:51:57 web:2106] 500 GET / (127.0.0.1) 1.18ms
+[E 180428 07:55:17 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/tang/python/python_obj/test_py/handlers/MainHandler.py", line 8, in get
+        db = self.db
+      File "/Users/tang/python/python_obj/test_py/handlers/BaseHandler.py", line 12, in db
+        return self.application.mysql
+    AttributeError: 'Application' object has no attribute 'mysql'
+[E 180428 07:55:17 web:2106] 500 GET / (127.0.0.1) 2.41ms
+[E 180428 07:55:18 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/tang/python/python_obj/test_py/handlers/MainHandler.py", line 8, in get
+        db = self.db
+      File "/Users/tang/python/python_obj/test_py/handlers/BaseHandler.py", line 12, in db
+        return self.application.mysql
+    AttributeError: 'Application' object has no attribute 'mysql'
+[E 180428 07:55:18 web:2106] 500 GET / (127.0.0.1) 1.02ms
+[E 180428 07:55:21 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/tang/python/python_obj/test_py/handlers/MainHandler.py", line 8, in get
+        db = self.db
+      File "/Users/tang/python/python_obj/test_py/handlers/BaseHandler.py", line 12, in db
+        return self.application.mysql
+    AttributeError: 'Application' object has no attribute 'mysql'
+[E 180428 07:55:21 web:2106] 500 GET / (127.0.0.1) 1.19ms
+[E 180428 07:55:21 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/tang/python/python_obj/test_py/handlers/MainHandler.py", line 8, in get
+        db = self.db
+      File "/Users/tang/python/python_obj/test_py/handlers/BaseHandler.py", line 12, in db
+        return self.application.mysql
+    AttributeError: 'Application' object has no attribute 'mysql'
+[E 180428 07:55:21 web:2106] 500 GET / (127.0.0.1) 1.04ms
+[E 180428 07:55:24 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/tang/python/python_obj/test_py/handlers/MainHandler.py", line 8, in get
+        db = self.db
+      File "/Users/tang/python/python_obj/test_py/handlers/BaseHandler.py", line 12, in db
+        return self.application.mysql
+    AttributeError: 'Application' object has no attribute 'mysql'
+[E 180428 07:55:24 web:2106] 500 GET / (127.0.0.1) 1.03ms
+[E 180428 07:57:11 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/tang/python/python_obj/test_py/handlers/MainHandler.py", line 8, in get
+        db = self.db
+      File "/Users/tang/python/python_obj/test_py/handlers/BaseHandler.py", line 12, in db
+        return self.application.mysql
+    AttributeError: 'Application' object has no attribute 'mysql'
+[E 180428 07:57:11 web:2106] 500 GET / (127.0.0.1) 2.27ms
+[E 180428 07:57:12 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/tang/python/python_obj/test_py/handlers/MainHandler.py", line 8, in get
+        db = self.db
+      File "/Users/tang/python/python_obj/test_py/handlers/BaseHandler.py", line 12, in db
+        return self.application.mysql
+    AttributeError: 'Application' object has no attribute 'mysql'
+[E 180428 07:57:12 web:2106] 500 GET / (127.0.0.1) 0.95ms
+[E 180428 07:57:15 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/tang/python/python_obj/test_py/handlers/MainHandler.py", line 8, in get
+        db = self.db
+      File "/Users/tang/python/python_obj/test_py/handlers/BaseHandler.py", line 12, in db
+        return self.application.mysql
+    AttributeError: 'Application' object has no attribute 'mysql'
+[E 180428 07:57:15 web:2106] 500 GET / (127.0.0.1) 0.85ms
+[E 180428 07:57:16 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/tang/python/python_obj/test_py/handlers/MainHandler.py", line 8, in get
+        db = self.db
+      File "/Users/tang/python/python_obj/test_py/handlers/BaseHandler.py", line 12, in db
+        return self.application.mysql
+    AttributeError: 'Application' object has no attribute 'mysql'
+[E 180428 07:57:16 web:2106] 500 GET / (127.0.0.1) 0.90ms
+[E 180428 07:57:16 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/tang/python/python_obj/test_py/handlers/MainHandler.py", line 8, in get
+        db = self.db
+      File "/Users/tang/python/python_obj/test_py/handlers/BaseHandler.py", line 12, in db
+        return self.application.mysql
+    AttributeError: 'Application' object has no attribute 'mysql'
+[E 180428 07:57:16 web:2106] 500 GET / (127.0.0.1) 0.98ms
+[E 180428 07:57:17 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/tang/python/python_obj/test_py/handlers/MainHandler.py", line 8, in get
+        db = self.db
+      File "/Users/tang/python/python_obj/test_py/handlers/BaseHandler.py", line 12, in db
+        return self.application.mysql
+    AttributeError: 'Application' object has no attribute 'mysql'
+[E 180428 07:57:17 web:2106] 500 GET / (127.0.0.1) 0.90ms
+[E 180428 07:57:17 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/tang/python/python_obj/test_py/handlers/MainHandler.py", line 8, in get
+        db = self.db
+      File "/Users/tang/python/python_obj/test_py/handlers/BaseHandler.py", line 12, in db
+        return self.application.mysql
+    AttributeError: 'Application' object has no attribute 'mysql'
+[E 180428 07:57:17 web:2106] 500 GET / (127.0.0.1) 1.15ms
+[E 180428 07:57:18 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/tang/python/python_obj/test_py/handlers/MainHandler.py", line 8, in get
+        db = self.db
+      File "/Users/tang/python/python_obj/test_py/handlers/BaseHandler.py", line 12, in db
+        return self.application.mysql
+    AttributeError: 'Application' object has no attribute 'mysql'
+[E 180428 07:57:18 web:2106] 500 GET / (127.0.0.1) 0.95ms
+[E 180428 07:57:18 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/tang/python/python_obj/test_py/handlers/MainHandler.py", line 8, in get
+        db = self.db
+      File "/Users/tang/python/python_obj/test_py/handlers/BaseHandler.py", line 12, in db
+        return self.application.mysql
+    AttributeError: 'Application' object has no attribute 'mysql'
+[E 180428 07:57:18 web:2106] 500 GET / (127.0.0.1) 1.93ms
+[E 180428 09:01:27 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/tang/python/python_obj/test_py/handlers/MainHandler.py", line 8, in get
+        db = self.db
+      File "/Users/tang/python/python_obj/test_py/handlers/BaseHandler.py", line 12, in db
+        return self.application.mysql
+    AttributeError: 'Application' object has no attribute 'mysql'
+[E 180428 09:01:27 web:2106] 500 GET / (127.0.0.1) 2.30ms
+[I 180428 09:01:49 autoreload:196] /Users/tang/python/python_obj/test_py/main.py modified; restarting server
+[E 180428 09:01:50 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/tang/python/python_obj/test_py/handlers/MainHandler.py", line 8, in get
+        db = self.db
+      File "/Users/tang/python/python_obj/test_py/handlers/BaseHandler.py", line 12, in db
+        return self.application.mysql
+    AttributeError: 'Application' object has no attribute 'mysql'
+[E 180428 09:01:50 web:2106] 500 GET / (127.0.0.1) 2.33ms
+[E 180428 09:01:52 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/tang/python/python_obj/test_py/handlers/MainHandler.py", line 8, in get
+        db = self.db
+      File "/Users/tang/python/python_obj/test_py/handlers/BaseHandler.py", line 12, in db
+        return self.application.mysql
+    AttributeError: 'Application' object has no attribute 'mysql'
+[E 180428 09:01:52 web:2106] 500 GET / (127.0.0.1) 0.97ms
+[E 180428 09:01:53 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/tang/python/python_obj/test_py/handlers/MainHandler.py", line 8, in get
+        db = self.db
+      File "/Users/tang/python/python_obj/test_py/handlers/BaseHandler.py", line 12, in db
+        return self.application.mysql
+    AttributeError: 'Application' object has no attribute 'mysql'
+[E 180428 09:01:53 web:2106] 500 GET / (127.0.0.1) 0.84ms
+[I 180428 09:02:17 autoreload:196] /Users/tang/python/python_obj/test_py/handlers/BaseHandler.py modified; restarting server
+[E 180428 09:02:17 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/tang/python/python_obj/test_py/handlers/MainHandler.py", line 8, in get
+        db = self.db
+    AttributeError: 'MainHandler' object has no attribute 'db'
+[E 180428 09:02:17 web:2106] 500 GET / (127.0.0.1) 2.16ms
+[E 180428 09:02:18 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/tang/python/python_obj/test_py/handlers/MainHandler.py", line 8, in get
+        db = self.db
+    AttributeError: 'MainHandler' object has no attribute 'db'
+[E 180428 09:02:18 web:2106] 500 GET / (127.0.0.1) 0.86ms
+[I 180428 09:02:35 autoreload:196] /Users/tang/python/python_obj/test_py/handlers/MainHandler.py modified; restarting server
+[I 180428 09:02:36 web:2106] 200 GET / (127.0.0.1) 0.96ms
+[I 180428 09:03:47 autoreload:196] /Users/tang/python/python_obj/test_py/main.py modified; restarting server
+[I 180428 09:03:48 web:2106] 304 GET / (127.0.0.1) 0.95ms
+[I 180428 09:03:49 web:2106] 304 GET / (127.0.0.1) 0.46ms
+[I 180428 09:03:50 web:2106] 304 GET / (127.0.0.1) 0.36ms
+[I 180428 09:03:51 web:2106] 304 GET / (127.0.0.1) 0.37ms
+[I 180428 09:03:52 web:2106] 304 GET / (127.0.0.1) 0.43ms
+[I 180428 09:04:50 web:2106] 304 GET / (127.0.0.1) 0.81ms
+[I 180428 09:04:51 web:2106] 304 GET / (127.0.0.1) 0.50ms
+[I 180428 09:05:32 web:2106] 304 GET / (127.0.0.1) 0.78ms
+[I 180428 09:05:33 web:2106] 304 GET / (127.0.0.1) 0.41ms
+[I 180428 09:05:33 web:2106] 304 GET / (127.0.0.1) 0.42ms
+[I 180428 09:05:34 web:2106] 304 GET / (127.0.0.1) 0.34ms
+[I 180428 09:05:34 web:2106] 304 GET / (127.0.0.1) 0.46ms
+[I 180428 09:05:34 web:2106] 304 GET / (127.0.0.1) 0.50ms
+[I 180428 09:05:34 web:2106] 304 GET / (127.0.0.1) 0.45ms
+[I 180428 09:05:34 web:2106] 304 GET / (127.0.0.1) 0.33ms
+[I 180428 09:05:35 web:2106] 304 GET / (127.0.0.1) 0.36ms
+[I 180428 09:05:35 web:2106] 304 GET / (127.0.0.1) 0.46ms
+[I 180428 09:06:46 web:2106] 304 GET / (127.0.0.1) 0.85ms
+[I 180428 09:06:46 web:2106] 304 GET / (127.0.0.1) 0.61ms
+[I 180428 09:06:46 web:2106] 304 GET / (127.0.0.1) 0.63ms
+[I 180428 09:06:47 web:2106] 304 GET / (127.0.0.1) 0.44ms
+[I 180428 09:06:47 web:2106] 304 GET / (127.0.0.1) 0.55ms
+[I 180428 09:10:51 autoreload:196] /Users/tang/python/python_obj/test_py/main.py modified; restarting server
+[I 180428 09:10:51 web:2106] 304 GET / (127.0.0.1) 0.87ms
+[I 180428 09:10:53 web:2106] 304 GET / (127.0.0.1) 0.42ms
+[I 180428 09:11:16 web:2106] 304 GET / (127.0.0.1) 0.34ms
+[I 180428 09:11:17 web:2106] 304 GET / (127.0.0.1) 0.55ms
+[I 180428 09:11:17 web:2106] 304 GET / (127.0.0.1) 0.50ms
+[I 180428 09:11:18 web:2106] 304 GET / (127.0.0.1) 0.55ms
+[I 180428 09:11:18 web:2106] 304 GET / (127.0.0.1) 0.51ms
+[I 180428 09:11:30 autoreload:196] /Users/tang/python/python_obj/test_py/handlers/MainHandler.py modified; restarting server
+[I 180428 09:11:31 web:2106] 304 GET / (127.0.0.1) 0.87ms
+[I 180428 09:11:31 web:2106] 304 GET / (127.0.0.1) 0.46ms
+[I 180428 09:11:32 web:2106] 304 GET / (127.0.0.1) 0.51ms
+[I 180428 09:11:33 web:2106] 304 GET / (127.0.0.1) 0.39ms
+[I 180428 09:11:33 web:2106] 304 GET / (127.0.0.1) 0.41ms
+[I 180428 09:11:49 autoreload:196] /Users/tang/python/python_obj/test_py/handlers/MainHandler.py modified; restarting server
+[E 180428 09:11:50 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1541, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/Users/tang/python/python_obj/test_py/handlers/MainHandler.py", line 9, in get
+        dbs.get()
+    AttributeError: 'MySQLDBUtils' object has no attribute 'get'
+[E 180428 09:11:50 web:2106] 500 GET / (127.0.0.1) 2.12ms
+[I 180428 09:12:27 autoreload:196] /Users/tang/python/python_obj/test_py/handlers/MainHandler.py modified; restarting server
+[E 180428 09:12:30 base_events:1266] Future exception was never retrieved
+    future: <Future finished exception=TypeError("get_one() missing 1 required positional argument: 'query'",)>
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/gen.py", line 296, in wrapper
+        result = func(*args, **kwargs)
+    TypeError: get_one() missing 1 required positional argument: 'query'
+[I 180428 09:12:30 web:2106] 200 GET / (127.0.0.1) 3.89ms
+[E 180428 09:12:32 base_events:1266] Future exception was never retrieved
+    future: <Future finished exception=TypeError("get_one() missing 1 required positional argument: 'query'",)>
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/gen.py", line 296, in wrapper
+        result = func(*args, **kwargs)
+    TypeError: get_one() missing 1 required positional argument: 'query'
+[I 180428 09:12:32 web:2106] 304 GET / (127.0.0.1) 0.78ms
+[I 180428 09:13:11 autoreload:196] /Users/tang/python/python_obj/test_py/handlers/MainHandler.py modified; restarting server
+[I 180428 09:13:12 web:2106] 304 GET / (127.0.0.1) 0.83ms
+[E 180428 09:13:12 base_events:1266] Future exception was never retrieved
+    future: <Future finished exception=TypeError("get_one() got an unexpected keyword argument 'sql'",)>
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/gen.py", line 296, in wrapper
+        result = func(*args, **kwargs)
+    TypeError: get_one() got an unexpected keyword argument 'sql'
+[D 180428 09:13:36 pools:74] Creating new connection: (1, 0, 0)
+[I 180428 09:13:36 web:2106] 304 GET / (127.0.0.1) 2.13ms
+[D 180428 09:13:36 pools:91] Add conn to free pool: (1, 1, 0)
+[D 180428 09:13:40 pools:74] Creating new connection: (2, 0, 0)
+[I 180428 09:13:40 web:2106] 304 GET / (127.0.0.1) 4.75ms
+[D 180428 09:13:40 pools:110] Connection closed: (1, 0, 0)
+[D 180428 09:13:40 pools:91] Add conn to free pool: (1, 1, 0)
+[D 180428 09:13:43 pools:66] Reusing connection from pool: (1, 0, 0)
+[I 180428 09:13:43 web:2106] 304 GET / (127.0.0.1) 1.33ms
+[D 180428 09:13:43 pools:91] Add conn to free pool: (1, 1, 0)
+[I 180428 09:14:47 autoreload:196] /Users/tang/python/python_obj/test_py/handlers/MainHandler.py modified; restarting server
+[E 180428 09:14:47 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1543, in _execute
+        result = yield result
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/gen.py", line 1099, in run
+        value = future.result()
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/gen.py", line 1187, in handle_yield
+        self.future = convert_yielded(yielded)
+      File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/functools.py", line 803, in wrapper
+        return dispatch(args[0].__class__)(*args, **kw)
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/gen.py", line 1329, in convert_yielded
+        raise BadYieldError("yielded unknown object %r" % (yielded,))
+    tornado.gen.BadYieldError: yielded unknown object <generator object MainHandler.get at 0x105651e08>
+[E 180428 09:14:47 web:2106] 500 GET / (127.0.0.1) 5.38ms
+[I 180428 09:15:49 autoreload:196] /Users/tang/python/python_obj/test_py/handlers/MainHandler.py modified; restarting server
+[E 180428 09:15:50 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1543, in _execute
+        result = yield result
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/gen.py", line 1099, in run
+        value = future.result()
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/gen.py", line 1187, in handle_yield
+        self.future = convert_yielded(yielded)
+      File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/functools.py", line 803, in wrapper
+        return dispatch(args[0].__class__)(*args, **kw)
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/gen.py", line 1329, in convert_yielded
+        raise BadYieldError("yielded unknown object %r" % (yielded,))
+    tornado.gen.BadYieldError: yielded unknown object <generator object MainHandler.get at 0x10564ceb8>
+[E 180428 09:15:50 web:2106] 500 GET / (127.0.0.1) 2.87ms
+[E 180428 09:15:51 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1543, in _execute
+        result = yield result
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/gen.py", line 1099, in run
+        value = future.result()
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/gen.py", line 1187, in handle_yield
+        self.future = convert_yielded(yielded)
+      File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/functools.py", line 803, in wrapper
+        return dispatch(args[0].__class__)(*args, **kw)
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/gen.py", line 1329, in convert_yielded
+        raise BadYieldError("yielded unknown object %r" % (yielded,))
+    tornado.gen.BadYieldError: yielded unknown object <generator object MainHandler.get at 0x10564cd58>
+[E 180428 09:15:51 web:2106] 500 GET / (127.0.0.1) 1.03ms
+[E 180428 09:15:53 web:1621] Uncaught exception GET / (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8899', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/web.py", line 1543, in _execute
+        result = yield result
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/gen.py", line 1099, in run
+        value = future.result()
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/gen.py", line 1187, in handle_yield
+        self.future = convert_yielded(yielded)
+      File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/functools.py", line 803, in wrapper
+        return dispatch(args[0].__class__)(*args, **kw)
+      File "/Users/tang/python/python_obj/venv/lib/python3.6/site-packages/tornado/gen.py", line 1329, in convert_yielded
+        raise BadYieldError("yielded unknown object %r" % (yielded,))
+    tornado.gen.BadYieldError: yielded unknown object <generator object MainHandler.get at 0x10564cf10>
+[E 180428 09:15:53 web:2106] 500 GET / (127.0.0.1) 1.00ms
+[I 180428 09:16:54 autoreload:196] /Users/tang/python/python_obj/test_py/handlers/MainHandler.py modified; restarting server
+[D 180428 09:16:54 pools:74] Creating new connection: (1, 0, 0)
+[D 180428 09:16:54 pools:91] Add conn to free pool: (1, 1, 0)
+[I 180428 09:16:54 web:2106] 200 GET / (127.0.0.1) 9.94ms
+[I 180428 09:17:12 autoreload:196] /Users/tang/python/python_obj/test_py/handlers/MainHandler.py modified; restarting server
+[D 180428 09:17:15 pools:74] Creating new connection: (1, 0, 0)
+[D 180428 09:17:15 pools:91] Add conn to free pool: (1, 1, 0)
+[I 180428 09:17:15 web:2106] 304 GET / (127.0.0.1) 5.66ms
+[D 180428 09:17:16 pools:66] Reusing connection from pool: (1, 0, 0)
+[D 180428 09:17:16 pools:91] Add conn to free pool: (1, 1, 0)
+[I 180428 09:17:16 web:2106] 304 GET / (127.0.0.1) 2.75ms
+[D 180428 09:17:16 pools:66] Reusing connection from pool: (1, 0, 0)
+[D 180428 09:17:16 pools:91] Add conn to free pool: (1, 1, 0)
+[I 180428 09:17:16 web:2106] 304 GET / (127.0.0.1) 3.42ms
+[I 180428 09:17:31 autoreload:196] /Users/tang/python/python_obj/test_py/handlers/MainHandler.py modified; restarting server
+[D 180428 09:17:34 pools:74] Creating new connection: (1, 0, 0)
+[D 180428 09:17:34 pools:91] Add conn to free pool: (1, 1, 0)
+[I 180428 09:17:34 web:2106] 304 GET / (127.0.0.1) 8.62ms
+[I 180428 09:17:40 autoreload:196] /Users/tang/python/python_obj/test_py/handlers/MainHandler.py modified; restarting server
+[D 180428 09:17:41 pools:74] Creating new connection: (1, 0, 0)
+[D 180428 09:17:41 pools:91] Add conn to free pool: (1, 1, 0)
+[I 180428 09:17:41 web:2106] 304 GET / (127.0.0.1) 7.23ms
+[D 180428 09:17:42 pools:66] Reusing connection from pool: (1, 0, 0)
+[D 180428 09:17:42 pools:91] Add conn to free pool: (1, 1, 0)
+[I 180428 09:17:42 web:2106] 304 GET / (127.0.0.1) 2.73ms
+[D 180428 09:17:42 pools:66] Reusing connection from pool: (1, 0, 0)
+[D 180428 09:17:42 pools:91] Add conn to free pool: (1, 1, 0)
+[I 180428 09:17:42 web:2106] 304 GET / (127.0.0.1) 2.83ms
+[D 180428 09:17:43 pools:66] Reusing connection from pool: (1, 0, 0)
+[D 180428 09:17:43 pools:91] Add conn to free pool: (1, 1, 0)
+[I 180428 09:17:43 web:2106] 304 GET / (127.0.0.1) 2.73ms
+[D 180428 09:17:43 pools:66] Reusing connection from pool: (1, 0, 0)
+[D 180428 09:17:43 pools:91] Add conn to free pool: (1, 1, 0)
+[I 180428 09:17:43 web:2106] 304 GET / (127.0.0.1) 3.00ms
+[D 180428 09:17:43 pools:66] Reusing connection from pool: (1, 0, 0)
+[D 180428 09:17:43 pools:91] Add conn to free pool: (1, 1, 0)
+[I 180428 09:17:43 web:2106] 304 GET / (127.0.0.1) 2.99ms
+[I 180428 09:17:52 autoreload:196] /Users/tang/python/python_obj/test_py/handlers/MainHandler.py modified; restarting server
+[D 180428 09:17:53 pools:74] Creating new connection: (1, 0, 0)
+[D 180428 09:17:53 pools:91] Add conn to free pool: (1, 1, 0)
+[I 180428 09:17:53 web:2106] 304 GET / (127.0.0.1) 5.92ms
+[D 180428 09:17:55 pools:66] Reusing connection from pool: (1, 0, 0)
+[D 180428 09:17:55 pools:91] Add conn to free pool: (1, 1, 0)
+[I 180428 09:17:55 web:2106] 304 GET / (127.0.0.1) 3.04ms
+[I 180428 09:19:29 autoreload:196] /Users/tang/python/python_obj/test_py/handlers/MainHandler.py modified; restarting server
+[D 180428 09:37:54 pools:74] Creating new connection: (1, 0, 0)
+[D 180428 09:37:54 pools:91] Add conn to free pool: (1, 1, 0)
+[I 180428 09:37:54 web:2106] 304 GET / (127.0.0.1) 5.69ms
